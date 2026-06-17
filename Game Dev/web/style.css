@@ -1,0 +1,336 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'VT323';
+  src: url('asset/font/VT323-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'VT323', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000;
+  color: #333;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.5px;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+button {
+  outline: none;
+}
+
+#game-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-family: inherit;
+  padding: 4px 8px;
+  font-size: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 2px;
+  border: none;
+  margin: 2px;
+  color: white;
+  text-shadow: -1px 1px 0 #000000;
+}
+
+#game-container {
+  width: 384px;
+  height: 216px;
+  min-width: 384px;
+  min-height: 216px;
+  flex-shrink: 0;
+  position: relative;
+  transform-origin: center center;
+  background-color: #222;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Logika Navigasi MVC */
+.view-screen {
+  display: none;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.view-screen.active {
+  display: flex;
+}
+
+/* Zoom Overlays (Tidak menyembunyikan #room) */
+.zoom-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.zoom-overlay.active {
+  display: flex;
+}
+
+/* Tombol Umum */
+.btn {
+  font-family: inherit;
+  padding: 4px 8px;
+  font-size: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 2px;
+  border: none;
+  margin: 2px;
+  color: white;
+}
+
+.btn-biru {
+  background-color: #3498db;
+}
+
+.btn-merah {
+  background-color: #e74c3c;
+}
+
+.btn-hijau {
+  background-color: #2ecc71;
+}
+
+/* Layout Room (Meja Kerja) */
+#room {
+  background-color: #000;
+}
+
+#room-layout {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* Asset Containers - inline styles handles most of this now */
+
+.monitor-container {
+  transition: transform 0.2s;
+}
+
+.monitor-container:hover {
+  transform: scale(1.02);
+}
+
+.buku-saku-container {
+  transition: transform 0.2s;
+}
+
+.buku-saku-container:hover {
+  transform: scale(1.05);
+}
+
+/* Gambar di layar mini */
+.room-image {
+  width: 100%;
+  max-height: 140px;
+  object-fit: cover;
+  border: 1px solid #bdc3c7;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+/* Efek memudar di bawah layar + tempat nempel tombol Zoom */
+.monitor-fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8) 80%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 15px;
+}
+
+#komputer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#komputer .zoom-box {
+  background: transparent;
+  color: #fff;
+  position: relative;
+}
+
+/* Panel Samping (Buku Saku di dalam Monitor) */
+#panel-buku-samping {
+  position: absolute;
+  top: 43px;
+  right: 0;
+  width: 45%;
+  height: 60%;
+  transition: transform 0.3s ease-in-out;
+  z-index: 20;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.panel-samping-sembunyi {
+  transform: translateX(120%);
+}
+
+.panel-samping-tampil {
+  transform: translateX(0);
+}
+
+.panah-toggle {
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  color: #f1c40f;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 110;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.panah-toggle:hover {
+  color: #fff;
+}
+
+#bukusaku {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#bukusaku .zoom-box {
+  background: transparent;
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fakta-list-bg {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  overflow-y: auto;
+  color: #222;
+  box-sizing: border-box;
+}
+
+.shortcut-kanan {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #f1c40f;
+  color: black;
+  padding: 20px 10px;
+  writing-mode: vertical-rl;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px 0 0 10px;
+  z-index: 110;
+}
+
+.shortcut-kiri {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  background: #3498db;
+  color: white;
+  padding: 20px 10px;
+  writing-mode: vertical-rl;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px 0 0 10px;
+  z-index: 110;
+}
+
+/* --- CUSTOM MODAL POPUP --- */
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-box {
+  background: #2c3e50;
+  padding: 10px;
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #3498db;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.modal-box h2 {
+  color: #f1c40f;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.modal-box p {
+  font-size: 8px;
+  margin-bottom: 8px;
+  color: #ecf0f1;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 4px;
+  font-size: 8px;
+  text-align: center;
+  margin-bottom: 8px;
+  background: #1a252f;
+  color: #fff;
+  border: 1px solid #7f8c8d;
+  border-radius: 2px;
+}
+
+.modal-btn-group {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bilik Verifikasi - Anti Hoaks</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="view-screen">
+    <h2 style="color:#f1c40f; font-size: 14px;">Menyinkronkan Database...</h2>
+  </div>
+
+  <div id="game-wrapper">
+    <div id="game-container">
+
+      <!-- Homescreen -->
+      <div id="homescreen" class="view-screen active">
+        <h1 style="font-size: 24px; color: #f1c40f; margin-bottom: 5px;">Decision Maker</h1>
+        <p style="margin-bottom: 15px; font-size: 10px;">Filter Kebenaran - Sistem Moderasi Kota</p>
+
+        <button class="btn btn-biru" style="width: 120px;" onclick="GameController.mulaiGameBaru()">MULAI GAME
+          BARU</button>
+        <button class="btn btn-biru" style="width: 120px;" onclick="GameController.bukaModalLoad()">LANJUTKAN
+          GAME</button>
+        <button class="btn btn-hijau" style="width: 120px;"
+          onclick="GameController.bukaLeaderboard()">LEADERBOARD</button>
+        <button class="btn btn-merah" style="width: 120px;" onclick="GameController.keluar()">KELUAR</button>
+      </div>
+
+      <!-- Room -->
+      <div id="room" class="view-screen">
+        <div id="room-layout"
+          style="width: 100%; height: 100%; position: relative; background-image: url('asset/img/background_384x216.png'); background-size: 100% 100%;">
+
+          <div id="timer-container"
+            style="position: absolute; left: 17px; top: 102px; width: 73px; height: 42px; background-image: url('asset/img/jam_73x42.png'); background-size: 100% 100%;">
+            <!-- Waktu di kotak gelap atas -->
+            <h3 id="timer-display"
+              style="position: absolute; top: 38%; left: 50%; transform: translate(-50%, -50%); color: #e74c3c; font-size: 10px; margin: 0;">
+              02:05</h3>
+
+            <!-- Indikator merah & hijau -->
+            <div id="indikator-merah"
+              style="position: absolute; top: 78%; left: 29%; transform: translate(-50%, -50%); color: #fff; font-size: 6px; font-weight: bold;">
+            </div>
+            <div id="indikator-hari"
+              style="position: absolute; top: 87%; left: 66%; transform: translate(-50%, -50%); color: #fff; font-size: 6px; font-weight: bold;"
+              title="Hari / Level">1</div>
+
+            <div style="display: none;">
+              <h2 id="info-hari">HARI KE-1</h2>
+              <span id="skor-display">0</span>
+              <span id="kuota-display">0/0</span>
+            </div>
+          </div>
+
+          <div id="monitor-container" onclick="GameController.pindahView('komputer')"
+            style="position: absolute; left: 112px; top: 16px; width: 144px; height: 139px; background-image: url('asset/img/monitor_144x139.png'); background-size: 100% 100%; cursor: pointer;">
+            <div class="monitor-mini"
+              style="position: absolute; top: 15px; left: 15px; width: 114px; height: 95px; padding: 2px; overflow: hidden; color: #ecf0f1; box-sizing: border-box;">
+              <h3 id="room-author" style="color: #f1c40f; text-align: center; margin-bottom: 2px; font-size: 8px;">
+                @Sistem</h3>
+              <p id="room-tanggal" style="color: #bdc3c7; font-size: 6px; margin-bottom: 2px; text-align: center;"></p>
+
+              <div style="display: flex; flex-direction: column; align-items: center; padding-bottom: 4px;">
+                <img id="room-img" class="room-image" src=""
+                  style="display: none; max-height: 35px; border-radius: 2px; border: 1px solid #bdc3c7; margin-bottom: 2px; width: 100%; object-fit: cover;">
+                <p id="room-text" style="font-size: 7px; line-height: 1.2; text-align: center;"></p>
+              </div>
+
+              <div
+                style="position: absolute; bottom: 2px; left: 0; right: 0; display: flex; justify-content: center; gap: 5px; z-index: 10;">
+                <button onclick="event.stopPropagation(); GameController.eksekusi('HAPUS')"
+                  style="position: absolute; bottom:20px; left:25px; margin: 0; padding: 3px 5px; font-size: 6px; border: none; border-radius: 2px; background-color: #e74c3c; color: white; cursor: pointer; font-weight: bold; letter-spacing: 1px; padding-left: 6px;">HAPUS</button>
+                <button onclick="event.stopPropagation(); GameController.eksekusi('LOLOS')"
+                  style="position: absolute; bottom:20px; right:25px; margin: 0; padding: 3px 5px; font-size: 6px; border: none; border-radius: 2px; background-color: #2ecc71; color: white; cursor: pointer; font-weight: bold; letter-spacing: 1px; padding-left: 6px;">LOLOS</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="keyboard-container"
+            style="position: absolute; left: 112px; top: 160px; width: 208px; height: 32px; background-image: url('asset/img/keyboard_208x32.png'); background-size: 100% 100%;">
+          </div>
+
+          <div id="ipad-container"
+            style="position: absolute; left: 300px; top: 132px; width: 66px; height: 31px; background-image: url('asset/img/ipad_66x31.png'); background-size: 100% 100%;">
+          </div>
+
+          <div id="buku-saku-container" onclick="GameController.pindahView('bukusaku')"
+            style="position: absolute; left: 368px; top: 32px; width: 16px; height: 144px; background-image: url('asset/img/tombolbuku_16x144.png'); background-size: 100% 100%; cursor: pointer; transition: transform 0.2s;">
+          </div>
+        </div>
+      </div>
+
+      <!-- Komputer -->
+      <div id="komputer" class="zoom-overlay">
+        <div id="komputer-asset"
+          style="width: 279px; height: 216px; position: relative; display: flex; justify-content: center; align-items: center; background-image: url('asset/img/monitorzoom_279x216.png'); background-size: 100% 100%; overflow: hidden;">
+          <div class="zoom-box"
+            style="position: relative; width: 80%; height: 72%; padding: 10px; overflow-y: auto; overflow-x: hidden; color: #fff;">
+
+            <!-- Tombol Tutup Monitor -->
+            <button
+              style="position: absolute; top:5px; right:5px; z-index: 10; font-size: 8px; padding: 3px 5px; background-color: #e74c3c; color: white; border: none; border-radius: 2px; cursor: pointer;"
+              onclick="GameController.pindahView('room')">X</button>
+
+            <!-- Konten Utama Monitor -->
+            <div style="text-align: center; margin-top: 5px; width: 100%;">
+              <h2 id="komp-author" style="color: #f1c40f; font-size: 14px; margin-bottom: 2px;">@Author</h2>
+              <p id="komp-tanggal" style="color: #bdc3c7; font-size: 10px; margin-bottom: 5px;"></p>
+              <p id="komp-text" style="font-size: 12px; margin: 10px 0; line-height: 1.4;">Isi dokumen...</p>
+              <img id="komp-img" src="" style="max-width: 100%; max-height: 80px; display: none; margin: 0 auto;">
+
+              <div style="margin-top: 15px; display: flex; justify-content: center; gap: 10px;">
+                <button onclick="GameController.eksekusi('HAPUS'); GameController.pindahView('room');"
+                  style="padding: 5px 10px; font-size: 10px; font-weight: bold; background-color: #e74c3c; color: white; border: none; border-radius: 3px; cursor: pointer; letter-spacing: 1.5px; padding-left: 11.5px;">HAPUS</button>
+                <button onclick="GameController.eksekusi('LOLOS'); GameController.pindahView('room');"
+                  style="padding: 5px 10px; font-size: 10px; font-weight: bold; background-color: #2ecc71; color: white; border: none; border-radius: 3px; cursor: pointer; letter-spacing: 1.5px; padding-left: 11.5px;">LOLOS</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Buku Saku Panel Samping -->
+          <div id="panel-buku-samping" class="panel-samping-sembunyi">
+            <div id="buku-saku-list-samping" class="fakta-list-bg">
+              <h2 style="text-align: center; margin-bottom: 5px; color: #222; font-size: 12px;">BUKU SAKU</h2>
+              <div id="daftar-fakta-samping-container"
+                style="background: transparent; border-radius: 10px; cursor: pointer; font-size: 8px;">
+              </div>
+            </div>
+
+            <div id="buku-saku-detail-samping" class="fakta-list-bg" style="display: none; font-size: 8px;">
+              <button
+                style="padding: 2px 5px; margin-bottom: 5px; font-size: 8px; background-color: #3498db; color: white; border: none; cursor: pointer;"
+                onclick="document.getElementById('buku-saku-detail-samping').style.display='none'; document.getElementById('buku-saku-list-samping').style.display='block';">Kembali</button>
+              <h2 id="buku-saku-detail-judul-samping" style="color: #222; margin-bottom: 5px; font-size: 10px;">Judul
+              </h2>
+              <p id="buku-saku-detail-isi-samping" style="color: #222; line-height: 1.4;">Isi detail</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tombol Buka/Tutup Panel Samping -->
+        <div id="btn-toggle-samping" class="panah-toggle" onclick="GameController.toggleBukuSamping()"
+          style="font-size: 20px;">▶</div>
+      </div>
+
+      <!-- Buku Saku -->
+      <div id="bukusaku" class="zoom-overlay">
+        <div id="bukusaku-asset"
+          style="width: 118px; height: 166px; position: absolute; top: 20px; right: 10px; display: flex; justify-content: center; align-items: center; background-image: url('asset/img/bukusakunyala_112x144.png'); background-size: 100% 100%;">
+          <div class="zoom-box" style="width: 85%; height: 85%; position: relative; font-size: 10px;">
+            <button
+              style="position: absolute; top: -2px; left: 0px; z-index: 10; font-size: 8px; width: 12px; height: 12px; border-radius: 2px; background-color: #e74c3c; color: white; border: none; cursor: pointer; display: flex; justify-content: center; align-items: center; padding: 0; line-height: 1;"
+              onclick="GameController.pindahView('room')">X</button>
+
+            <div id="buku-saku-list"
+              style="width: 100%; height: 100%; overflow-y: auto; padding: 10px; box-sizing: border-box; color: #222;">
+              <h2 style="text-align: center; margin-bottom: 5px; color: #222; font-size: 13px;">BUKU SAKU</h2>
+              <div id="daftar-fakta-container"
+                style="background: transparent; border-radius: 2px; cursor: pointer; line-height: 1.3;">
+              </div>
+            </div>
+
+            <div id="buku-saku-detail"
+              style="display: none; width: 100%; height: 100%; overflow-y: auto; padding: 10px; box-sizing: border-box; color: #222;">
+              <button
+                style="padding: 3px 6px; margin-bottom: 5px; font-size: 8px; background-color: #3498db; color: white; border: none; cursor: pointer;"
+                onclick="document.getElementById('buku-saku-detail').style.display='none'; document.getElementById('buku-saku-list').style.display='block';">Kembali</button>
+              <h2 id="buku-saku-detail-judul" style="color: #222; margin-bottom: 5px; font-size: 13px;">Judul</h2>
+              <p id="buku-saku-detail-isi" style="color: #222; line-height: 1.3; font-size: 10px;">Isi detail</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Game Over -->
+      <div id="game-over" class="view-screen"
+        style="background: rgba(0,0,0,0.95); flex-direction: column; align-items: center; justify-content: center;">
+        <h1 style="font-size: 24px; color: #e74c3c; margin-bottom: 5px;">GAME OVER</h1>
+        <h2 id="game-over-reason"
+          style="color: #ecf0f1; margin-bottom: 15px; font-size: 10px; text-align: center; max-width: 80%;">Waktu Habis!
+        </h2>
+        <button class="btn btn-biru" style="width: 120px;" onclick="GameController.pindahView('homescreen')">KEMBALI KE
+          MENU</button>
+      </div>
+
+      <!-- Level End -->
+      <div id="level-end" class="view-screen"
+        style="background: rgba(0,0,0,0.95); flex-direction: column; align-items: center; justify-content: center;">
+
+        <h1 style="font-size: 20px; color: #f1c40f; margin-bottom: 2px;">SIF SELESAI</h1>
+        <h2 id="end-level-title" style="color: #ecf0f1; margin-bottom: 5px; font-size: 12px;">Evaluasi Hari Ke-X</h2>
+
+        <div
+          style="background: #2c3e50; padding: 5px; border-radius: 5px; width: 200px; text-align: center; margin-bottom: 5px; border: 2px solid #7f8c8d; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+          <h3 style="font-size: 10px; margin-bottom: 4px; border-bottom: 1px solid #7f8c8d; padding-bottom: 2px;">
+            Laporan Performa</h3>
+
+          <div style="display: flex; justify-content: space-between; margin-bottom: 2px; font-size: 8px;">
+            <span style="color: #2ecc71;">Keputusan Tepat (Benar):</span>
+            <strong id="stat-benar" style="color: #2ecc71;">0</strong>
+          </div>
+
+          <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 8px;">
+            <span style="color: #e74c3c;">Keputusan Keliru (Salah):</span>
+            <strong id="stat-salah" style="color: #e74c3c;">0</strong>
+          </div>
+
+          <div style="background: #34495e; padding: 3px; border-radius: 3px;">
+            <span style="font-size: 8px; color: #bdc3c7;">Total Skor Kumulatif</span><br>
+            <span id="stat-skor" style="font-size: 14px; font-weight: bold; color: #3498db;">0</span>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 10px;">
+          <button class="btn btn-biru" style="width: 120px;" onclick="GameController.simpanKeluar()">SIMPAN &
+            KELUAR</button>
+          <button id="btn-lanjut" class="btn btn-hijau" style="width: 120px;"
+            onclick="GameController.lanjutKeLevelBerikutnya()">LANJUT SIF BERIKUTNYA</button>
+        </div>
+      </div>
+
+      <!-- Modals -->
+      <div id="modal-alert" class="modal-overlay">
+        <div class="modal-box">
+          <h2 id="alert-title">Pemberitahuan</h2>
+          <p id="alert-message">Pesan error atau info di sini.</p>
+          <button class="btn btn-biru" onclick="document.getElementById('modal-alert').style.display='none'">OK</button>
+        </div>
+      </div>
+
+      <div id="modal-save" class="modal-overlay">
+        <div class="modal-box">
+          <h2>Simpan Progres</h2>
+          <p>Masukkan ID/Nama kamu untuk menyimpan progres Hari Ke-<span id="save-lvl-text"></span></p>
+          <input type="text" id="input-nama-save" class="modal-input" placeholder="Misal: WargaITATS">
+          <div class="modal-btn-group">
+            <button class="btn btn-merah"
+              onclick="document.getElementById('modal-save').style.display='none'">Batal</button>
+            <button class="btn btn-hijau" id="btn-konfirmasi-save" onclick="GameController.eksekusiSimpan()">SIMPAN
+              DATA</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Load -->
+      <div id="modal-load" class="modal-overlay">
+        <div class="modal-box">
+          <h2>Lanjutkan Game</h2>
+          <p>Pilih data agen untuk melanjutkan sif.</p>
+
+          <div id="daftar-simpanan-container"
+            style="max-height: 100px; overflow-y: auto; margin-bottom: 10px; display: flex; flex-direction: column; gap: 5px; padding-right: 5px;">
+            <p style="color: #bdc3c7; font-size: 8px;">Memuat data dari server...</p>
+          </div>
+
+          <div class="modal-btn-group">
+            <button class="btn btn-merah"
+              onclick="document.getElementById('modal-load').style.display='none'">Kembali</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Leaderboard -->
+      <div id="modal-leaderboard" class="modal-overlay">
+        <div class="modal-box" style="max-width: 250px;">
+          <h2 style="color: #f1c40f;">LEADERBOARD AGEN</h2>
+          <p style="margin-bottom: 10px;">Peringkat Agen Berdasarkan Skor Tertinggi</p>
+
+          <div id="daftar-leaderboard-container"
+            style="max-height: 120px; overflow-y: auto; margin-bottom: 10px; text-align: left; background: #2c3e50; padding: 5px; border-radius: 3px; border: 1px solid #34495e; font-size: 8px;">
+            <p style="color: #bdc3c7; text-align: center;">Memuat data dari server...</p>
+          </div>
+
+          <div class="modal-btn-group">
+            <button class="btn btn-merah"
+              onclick="document.getElementById('modal-leaderboard').style.display='none'">Tutup</button>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- end game-container -->
+  </div> <!-- end game-wrapper -->
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>

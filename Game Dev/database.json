@@ -1,0 +1,1150 @@
+{
+  "leaderboard": [
+    {
+      "Waktu": "6/9/2026 17:31:15",
+      "Nama_Pemain": "Eggi",
+      "Skor_Akhir": 10,
+      "Level_Hari": 1
+    },
+    {
+      "Waktu": "6/13/2026 19:26:01",
+      "Nama_Pemain": "hanif",
+      "Skor_Akhir": -40,
+      "Level_Hari": 1
+    },
+    {
+      "Waktu": "6/13/2026 19:58:17",
+      "Nama_Pemain": "hanif",
+      "Skor_Akhir": 40,
+      "Level_Hari": 1
+    },
+    {
+      "Waktu": "6/13/2026 20:00:00",
+      "Nama_Pemain": "1",
+      "Skor_Akhir": 40,
+      "Level_Hari": 1
+    },
+    {
+      "Waktu": "6/15/2026 13:54:26",
+      "Nama_Pemain": "hanif",
+      "Skor_Akhir": 25,
+      "Level_Hari": 1
+    },
+    {
+      "Waktu": "06/15/2026 19:57:18",
+      "Nama_Pemain": "rggi",
+      "Skor_Akhir": -5,
+      "Level_Hari": 1
+    },
+    {
+      "Waktu": "06/17/2026 18:09:19",
+      "Nama_Pemain": "rizal",
+      "Skor_Akhir": 100,
+      "Level_Hari": 1
+    }
+  ],
+  "posts": [
+    {
+      "hari": 1,
+      "author": "@WargaNetral",
+      "text": "Kampanye Mas Dan di Lapangan Banteng hari ini berjalan sangat tertib dan meriah banget. Polisi juga siaga menjaga keamanan dari pagi hingga acara selesai dengan lancar. Senang rasanya melihat pesta demokrasi yang damai seperti ini di kota kita.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@AktivisSumbu",
+      "text": "GAWAT! Kampanye Mas Dan barusan rusuh parah di Lapangan Banteng! Massa pendukung marah dan membakar bendera lawan karena tidak dikasih uang jalan oleh panitia. Kejadian ini sengaja ditutupi oleh media massa agar citranya tetap bagus!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@PengamatBurung",
+      "text": "Tadi siang kebetulan lihat helikopternya Pak Anto lewat di atas rumah. Keren juga ya beliau rela sewa heli pakai uang sendiri buat ngejar jadwal kampanye antar kota. Semoga lelahnya membuahkan hasil yang baik untuk rakyat.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@MataRakyat",
+      "text": "Enak banget ya jadi Pak Anto, kampanye keliling Konoha pakai fasilitas helikopter militer negara! Pajak yang kita bayar tiap tahun ternyata dipakai buat modal dia nyapres! Tolong aparat segera periksa penyalahgunaan aset ini!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@EmakMilitan",
+      "text": "Alhamdulillah tadi pagi habis antre di acara pasar murah yang diadain sama tim Mas Pram. Lumayan banget sembakonya dapat diskon besar buat nambah stok dapur bulan ini. Acaranya juga teratur karena semua pakai sistem kupon.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@BongkarRahasia",
+      "text": "Mas Pram ketahuan curi start kampanye dengan bagi-bagi sembako gratis ke warga pedesaan! Ini jelas-jelas pelanggaran berat karena menyuap pemilih dengan beras dan minyak. Bawaslu Konoha kemana nih, kok diam saja melihat kecurangan ini?",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@CuacaKonoha",
+      "text": "Info cuaca siang ini, hujan badai dan angin kencang melanda sektor selatan yang bikin panggung acara Pak Anto ambruk berantakan. Panitia sedang mengevakuasi peralatan yang tersisa di lapangan. Semoga tidak ada korban jiwa dan warga tetap waspada.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@KonspirasiPolitik",
+      "text": "Panggung Pak Anto di wilayah selatan sengaja dirubuhkan sama intelijen dari kubu lawan! Mereka memotong tali penyangga besi sebelum acara dimulai. Ini sudah masuk kategori sabotase dan percobaan pembunuhan berencana terhadap paslon!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@ASN_Jujur",
+      "text": "Sekadar mengingatkan untuk rekan-rekan ASN di seluruh Konoha, kita wajib menjaga netralitas selama masa pemilu berlangsung. Jangan sampai ikut-ikutan memakai atribut kampanye dari paslon mana pun di ruang publik. Sanksi tegas menanti bagi yang melanggar aturan ini.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@VideoLama",
+      "text": "Parah banget ini kelakuan Lurah SukaMaju yang terang-terangan pakai kaos kampanye Mas Dan di kantornya! Ini bukti paling nyata kalau abdi negara Konoha sudah nggak netral lagi! Sebarkan video ini biar yang bersangkutan cepat dipecat!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@SatpolKota",
+      "text": "Kegiatan penertiban atribut kampanye di zona hijau akan terus kami lanjutkan tanpa pandang bulu. Hari ini tim kami sedang mencopot deretan baliho Mas Pram yang melanggar aturan di sepanjang Jalan Sudirman. Kami harap tim sukses lebih tertib dalam memasang alat peraga.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@Pasukan03",
+      "text": "Rezim makin panik dan bertindak semena-mena! Baliho Mas Pram di Jalan Sudirman dicabut paksa dan dirusak sama Satpol PP siang ini. Padahal baliho dari paslon lain dibiarkan berdiri tegak begitu saja tanpa disentuh! Mari kita tumbangkan ketidakadilan ini!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@RelawanDan",
+      "text": "Terima kasih kepada seluruh relawan lokal dan kawan-kawan pengusaha yang sudah patungan dana secara ikhlas. Dana ini sangat membantu untuk menyewa panggung kampanye kita hari ini. Solidaritas dan kerja keras kita tidak akan pernah mengkhianati hasil!",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@KabarGelap",
+      "text": "Akhirnya terkuak juga rahasia besar di balik mewahnya acara nomor satu! Dana kampanye triliunan milik Mas Dan ternyata disokong penuh oleh para mafia asing. Mereka sengaja membiayai Mas Dan agar bisa menguasai kekayaan alam Konoha nanti!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@InfoJalanTol",
+      "text": "Pemberitahuan untuk seluruh pengguna jalan, harap menghindari Tol Utara karena sedang ada pengerjaan perbaikan aspal darurat oleh dinas PU. Terdapat alat berat yang memakan sebagian bahu jalan raya. Silakan gunakan jalur arteri untuk sementara waktu.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@Anti02",
+      "text": "Massa pendukung Pak Anto benar-benar kurang ajar dan bikin emosi warga! Mereka dengan sengaja memblokir Tol Utara pakai mobil agar pendukung paslon lain ga bisa lewat. Ratusan orang jadi telat kerja gara-gara keegoisan kampanye murahan ini!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@Klarifikasi03",
+      "text": "Menanggapi isu yang beredar, kami tegaskan bahwa tim pemenangan Mas Pram tidak pernah mengadakan undian berhadiah tiket umroh. Hal tersebut sepenuhnya adalah modus penipuan dari pihak tak bertanggung jawab. Hati-hati dalam memberikan data pribadi Anda.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@KorbanPemilu",
+      "text": "Bohong besar kalau Mas Pram peduli sama rakyat kecil! Katanya mau bagi-bagi kupon umroh gratis buat warga desa, eh giliran mau ditukar tiketnya malah disuruh transfer pajak jutaan rupiah. Tolong viralkan biar nggak ada korban penipuan lagi dari paslon ini!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@SuaraUlama",
+      "text": "Asosiasi tokoh agama baru saja mengeluarkan imbauan agar seluruh umat beragama senantiasa menjaga kesejukan selama masa kampanye. Pilihan politik boleh berbeda, namun persaudaraan sebangsa harus tetap diutamakan. Mari wujudkan pemilu Konoha yang damai dan bermartabat.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@PejuangAgama",
+      "text": "Beredar surat ketetapan resmi dari majelis tertinggi! 100 Ulama Konoha sepakat mengeluarkan fatwa haram bagi siapa pun yang mencoblos Pak Anto di TPS nanti. Surat ini menjadi bukti bahwa agama melarang keras kepemimpinan dari paslon nomor dua! Sebarkan!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@Pemuda01",
+      "text": "Bangga banget rasanya melihat antusiasme ribuan warga di kampanye Mas Dan hari ini. Lautan manusia sampai tumpah-tumpah ke luar pagar lapangan saking ramainya. Hebatnya lagi, mereka tetap tertib dan menjaga kebersihan taman setelah acara selesai.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@MataNaga",
+      "text": "Acara kampanye Mas Dan di pusat kota ternyata sepi banget kaya kuburan! Jangan percaya sama berita TV yang bilang acaranya sukses besar. Foto yang kelihatan rame penonton itu murni hasil editan aplikasi dari timsesnya doang buat gaya-gayaan!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@OjolKonoha",
+      "text": "Tadi siang pas narik penumpang sempat lewat depan lokasi acaranya Pak Anto. Arus lalu lintas lumayan padat merayap, tapi para petugas sigap banget ngatur jalanan. Semangat terus buat bapak-bapak polisi yang lagi bertugas di lapangan.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@Garda03",
+      "text": "Kelakuan tim sukses Pak Anto benar-benar bikin malu nama baik negara Konoha! Sehabis acara kampanye, mereka sengaja merusak fasilitas pot bunga dan mencoret-coret tembok taman kota. Inikah contoh sikap dari calon pemimpin yang didambakan?",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 1,
+      "author": "@WargaBiasa",
+      "text": "Harapan saya sebagai rakyat biasa sangat sederhana untuk pemilu tahun ini. Siapapun nanti yang takdirnya menang dan menjadi presiden, semoga kampanye damai seperti ini bisa dijaga sampai hari pencoblosan. Kita butuh pemimpin yang menyatukan, bukan memecah belah.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "10 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@PecintaDebat",
+      "text": "Aturan batas waktu dua menit dari KPU ini menurutku udah pas banget buat mengukur seberapa tajam argumen tiap capres. Durasinya nggak terlalu lama sampai bikin ngantuk, tapi juga nggak terlalu sebentar. Semua kandidat dipaksa untuk bicara to the point.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@Pasukan01",
+      "text": "KPU JELAS CURANG DAN MASUK ANGIN! Waktu bicara Mas Dan sengaja dipotong 30 detik oleh sistem biar dia ga bisa membalas pertanyaan jebakan dari lawan. Ini konspirasi besar untuk menjatuhkan kredibilitas paslon nomor satu di depan jutaan penonton! Usut tuntas!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@TeknisiTV",
+      "text": "Kami memohon maaf yang sebesar-besarnya atas ketidaknyamanan pemirsa di rumah. Sempat terjadi gangguan frekuensi pada kabel receiver mikrofon Pak Anto yang memicu audio terputus selama lima detik. Kendala teknis tersebut sudah berhasil kami tangani dengan cepat.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@MataMata02",
+      "text": "Moderator debat nasional malam ini jelas-jelas sudah disuap! Mikrofon Pak Anto sengaja dimatikan secara paksa dari ruang kendali tepat saat beliau mau membongkar kasus korupsi pejabat. Mereka ketakutan kalau rahasia kotor negara dibongkar di siaran langsung!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@DataBPS",
+      "text": "Menyambung paparan memukau dari Mas Pram semalam, memang benar terjadi penurunan kemiskinan yang signifikan. Angka kemiskinan berhasil ditekan turun sebesar satu persen sesuai dengan rilis laporan statistik resmi kami. Publik bisa mengecek data tersebut di situs kementerian.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@Anti03",
+      "text": "Dasar pembohong kelas kakap yang tidak tahu malu! Mas Pram berani-beraninya mengarang data kemiskinan palsu dari kepalanya sendiri di atas panggung debat. Saking paniknya ditanya lawan, dia langsung menyebut angka satu persen yang tidak ada buktinya sama sekali!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@JurnalisTengah",
+      "text": "Foto viral Pak Anto saat jeda iklan itu sebenarnya diambil dari angle atas panggung saat beliau menunduk. Beliau sedang serius membaca catatan kertas untuk sesi selanjutnya, bukan sedang tertidur. Sangat disayangkan banyak yang memelintir gambar ini di media sosial.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@KipasAngin",
+      "text": "Lucu banget kelakuan capres nomor 02 yang satu ini! Lagi acara debat kenegaraan yang genting malah asik molor tidur di podium gara-gara kelelahan. Kelihatan banget kalau kondisi fisik tuanya sudah nggak kuat lagi buat mikir berat ngurusin negara!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@AkademisiKonoha",
+      "text": "Panelis debat yang dihadirkan KPU tahun ini terlihat sangat independen dan berintegritas tinggi. Mekanisme pertanyaan yang disegel rapat dalam amplop sangat menjaga kerahasiaan materi ujian. Penyelenggaraan debat malam ini benar-benar patut diacungi jempol.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@IntelBawah",
+      "text": "Sudah kuduga kenapa Mas Dan bisa menjawab semua pertanyaan dengan lancar tanpa mikir. Dia rupanya sudah dikasih bocoran soal dari orang dalam KPU semenjak H-1 acara! Acara debat semalam murni hanya settingan naskah drama untuk memenangkan paslon tertentu!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@PenontonSetia",
+      "text": "Suasana debat di dalam studio terasa meriah banget berkat sorakan semangat dari supporter masing-masing paslon. Teriakan mereka di waktu jeda bikin vibes pemilu makin kerasa seru kayak lagi nonton pertandingan bola. Semoga tensi hangat ini cuma terjadi di dalam ruangan saja.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@AturanKetat",
+      "text": "Kelakuan para pendukung Mas Pram di dalam studio sangat norak dan melanggar semua aturan KPU! Mereka sengaja menyewa preman bayaran buat teriak-teriak dan mengganggu konsentrasi capres lain saat sedang bicara. Panitia seharusnya mengusir gerombolan perusuh itu keluar!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@KlinikTHT",
+      "text": "Sebagai informasi edukasi, benda kecil yang terpasang di telinga Mas Dan adalah alat bantu dengar medis berstandar internasional. Beliau memang tercatat sebagai pasien rujukan rutin di klinik kami sejak lama. Perangkat tersebut tidak memiliki fitur tersembunyi apa pun.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@PendeteksiSuara",
+      "text": "Tertangkap basah oleh kamera! Mas Dan ternyata curang menggunakan earpiece rahasia super kecil di telinganya. Alat itu dipakai buat dengerin instruksi jawaban dari tim sukses ahli yang sembunyi di belakang panggung! Tolong diskualifikasi kandidat penipu ini sekarang juga!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@PakarEkspresi",
+      "text": "Gestur tubuh Pak Anto sepanjang jalannya debat menunjukkan sikap yang sangat tenang dan tegas. Walaupun diserang habis-habisan oleh argumen tajam lawan, beliau tidak mudah terpancing emosi. Pembawaannya di atas mimbar sangat mencerminkan sosok negarawan yang matang.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@BarisanMuda",
+      "text": "Ngeri banget lihat kelakuan Pak Anto yang emosinya meledak-ledak di siaran langsung televisi semalam! Beliau sampai memukul dan menggebrak meja podium dengan keras pas ditanya soal pertahanan militer. Calon presiden kok punya karakter tempramental dan kasar begini!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@TimKamera",
+      "text": "Berdasarkan peninjauan footage resolusi tinggi dari kamera belakang kami, kertas yang dibawa Mas Pram ke podium awalnya sepenuhnya kosong. Beliau baru mencoret-coret kertas tersebut menggunakan pena saat acara telah dimulai. Ini murni gaya mencatat poin penting saat lawan berbicara.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@MataJeli",
+      "text": "Bukti kecurangan fatal tertangkap di depan mata jutaan rakyat! Mas Pram ketahuan membawa kertas contekan yang sudah berisi jawaban lengkap hasil ketikan tim dari rumah! Pantas saja dia bisa menyebutkan angka statistik dengan mulus tanpa jeda! Harus dibatalkan pencalonannya!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@InfoKPU",
+      "text": "Acara debat edisi perdana ini memang dikhususkan untuk segmen pemaparan visi dan misi Calon Presiden saja. Kehadiran para pendamping hanya sebatas tamu undangan di kursi VIP. Sesi perdebatan khusus untuk para Calon Wakil Presiden akan digelar pada minggu depan sesuai jadwal.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@BeritaSensasi",
+      "text": "Kabar mengejutkan dari arena debat malam ini! Calon wakil presiden dari semua paslon pada kabur ketakutan dari gedung acara karena takut disuruh naik panggung! Mental tempe semua, belum jadi pejabat saja sudah lari dari tanggung jawab menghadapi publik Konoha!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@PengamatDebat",
+      "text": "Secara keseluruhan dinamika malam ini, ketiga kandidat berhasil menyampaikan intisari gagasannya dengan cara yang elegan. Perdebatan berjalan hangat, saling menyerang program, namun tetap ditutup dengan pelukan yang santun. Ini adalah literasi politik yang sangat mendidik.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@AktivisGadungan",
+      "text": "Kebenaran yang ditutupi oleh seluruh saluran televisi! Acara debat semalam sebenarnya dibatalkan secara paksa di tengah jalan. Hal ini terjadi karena Mas Dan dan Pak Anto hampir adu jotos dan melempar mikrofon di atas panggung! Media dibayar untuk menutupi aib ini!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@WargaKritis",
+      "text": "Menyimak acara debat semalam bikin wawasan politik saya lumayan terbuka tentang arah kebijakan negara ke depan. Semoga janji-janji manis tentang kesejahteraan di atas panggung tadi benar-benar direalisasikan. Jangan sampai mereka pada amnesia kalau sudah resmi menjabat nanti.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@PembisikPolitik",
+      "text": "KPU sengaja menghentikan siaran debat secara paksa untuk memotong omongan Mas Pram! Beliau saat itu hampir saja membongkar rahasia kotor hutang negara yang disembunyikan kementerian! Rezim benar-benar panik melihat keberaniannya membela kebenaran di siaran langsung!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 2,
+      "author": "@MahasiswaHukum",
+      "text": "Penjelasan Mas Dan soal regulasi investasi asing menurut saya sangat rasional dan berlandaskan pada undang-undang yang masih berlaku saat ini. Pemaparannya mengenai revisi hukum sangat komprehensif dan mudah dimengerti orang awam. Saya jadi makin yakin dengan pilihanku.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "11 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@TechReviewer",
+      "text": "Rencana strategis internet gratis dari Mas Dan buat fasilitas umum ini adalah langkah yang tepat sasaran. Kebijakan ini bakal mempercepat digitalisasi di desa-desa terpelosok Konoha yang kesulitan sinyal. Anak-anak daerah tidak perlu lagi bingung nyari koneksi buat kerjain tugas sekolah.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@AwasTekno",
+      "text": "JANGAN MAU DITIPU SAMA MAS DAN! Program internet gratis yang dia janjikan itu aslinya bakal nyedot otomatis sisa kuota pribadi dari HP kalian! Kuota kita bakal dipakai buat bayarin subsidi silang orang-orang kota! Ini perampokan digital berkedok program bantuan sosial!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@PetaniMilenial",
+      "text": "Program swasembada pangan rancangan Pak Anto yang memfokuskan anggaran pada subsidi pupuk lokal sangat masuk akal. Ini adalah terobosan yang sangat menjawab keluhan kami para petani kecil selama bertahun-tahun. Semoga tidak ada lagi cerita pupuk langka saat musim tanam tiba.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@GardaTanah",
+      "text": "Bahaya besar mengancam sektor pertanian kita! Pak Anto sudah menyiapkan peraturan untuk merampas paksa seluruh sawah milik rakyat atas nama negara. Beliau menggunakan kedok ambisi swasembada pangan untuk menjadikan petani sebagai budak di tanahnya sendiri! Lawan penindasan ini!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@GuruHonorer",
+      "text": "Mendengar janji Mas Pram untuk menaikkan tunjangan guru honorer secara langsung dari APBN sungguh memberi kami secercah harapan. Pengabdian belasan tahun kami akhirnya mendapat perhatian yang layak dari calon pemimpin. Semoga skema pendanaannya nanti benar-benar terealisasi.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@PNS_Korban",
+      "text": "Kurang ajar sekali pemikiran Mas Pram ini! Demi menutupi janji palsu kenaikan gaji honorer, dia berencana memotong 50 persen gaji pokok PNS di seluruh departemen! Pegawai negeri yang sudah mengabdi puluhan tahun bakal dimiskinkan begitu saja kalau dia menang!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@PengamatPajak",
+      "text": "Pemberian insentif pajak kendaraan listrik yang ditawarkan Mas Dan cukup realistis untuk mendorong transisi energi hijau di kota-kota besar. Langkah ini sejalan dengan tren global untuk menekan ketergantungan pada bahan bakar fosil. Tentu saja, aturannya harus dibarengi kesiapan infrastruktur.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@MotorBebek",
+      "text": "Asik banget pokoknya kalau Mas Dan sampai beneran menang pemilihan ini! Di acara kampanyenya tadi, dia berjanji kalau semua pajak motor dan mobil berbahan bensin bakal dihapus total seumur hidup! Bebas narik gas di jalan raya tanpa pusing bayar tagihan Samsat lagi tiap tahun!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@PakarMiliter",
+      "text": "Fokus Pak Anto pada peremajaan alutsista laut dan modernisasi radar udara sangat relevan dengan ancaman geopolitik kawasan saat ini. Negara kepulauan seperti Konoha memang membutuhkan sistem pertahanan perbatasan yang canggih. Ini menunjukkan pemahaman beliau yang mendalam.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@PemudaCemas",
+      "text": "Gila banget rencana gelap Pak Anto kalau sampai duduk di kursi presiden! Dia bakal bikin Undang-Undang Wajib Militer kayak di Korea sana. Semua anak muda umur 18 tahun bakal diseret paksa dan dipenjara di barak tentara buat ikut latihan perang! Lari selamatkan masa depan kalian!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@AnalisTransport",
+      "text": "Rencana visi Mas Pram untuk mengalihkan subsidi BBM ke perbaikan angkutan umum massal adalah langkah pahit yang berani. Kebijakan revolusioner ini sangat diperlukan untuk mengatasi penyakit macet kronis di ibu kota. Masyarakat harus mulai dibiasakan naik transportasi publik.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@EmakDapur",
+      "text": "Kiamat ekonomi sudah di depan mata ibu-ibu! Dokumen rahasia bocor menyebutkan bahwa Mas Pram akan menaikkan harga bensin menjadi 50 ribu per liter di hari pertama dia menjabat nanti! Semua harga kebutuhan pokok bakal ikut meroket dan bikin rakyat kecil mati kelaparan!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@PekerjaProyek",
+      "text": "Komitmen Mas Dan untuk melanjutkan mega proyek IKN dengan pengetatan evaluasi anggaran adalah jalan tengah yang paling masuk akal. Ini memastikan bahwa uang negara triliunan rupiah yang sudah diinvestasikan tidak berakhir mubazir. Pembangunan harus jalan beriringan dengan pengawasan.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@AntiPembangunan",
+      "text": "Terbongkar sudah agenda terselubung Mas Dan di belakang layar! Dia diam-diam sudah tanda tangan janji rahasia dengan pihak asing untuk membubarkan dan meratakan proyek IKN Konoha dengan tanah. Uang proyeknya bakal dipakai untuk bayar utang pribadi kampanye dia!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@KaryawanBUMN",
+      "text": "Wacana perbaikan sistem manajemen perusahaan plat merah yang ditawarkan Pak Anto semoga bisa menjadi angin segar. Selama ini banyak perusahaan yang dikelola oleh jajaran direksi titipan yang kurang kompeten di bidangnya. Konsep efisiensinya sangat terstruktur dengan jelas.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@PatriotBangsa",
+      "text": "Dasar pengkhianat negara berkacamata kuda! Pak Anto berniat menjual semua aset BUMN Pertambangan milik Konoha ke pihak aseng dengan harga murah meriah! Dia rela menggadaikan kekayaan alam leluhur demi keuntungan kelompoknya sendiri! Tolak keras paslon nomor 02!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@EkonomIndependen",
+      "text": "Target Mas Pram menurunkan rasio hutang nasional agar kembali di bawah ambang batas memang terdengar sangat ambisius dan berisiko. Namun, jika dibarengi dengan efisiensi belanja negara yang ketat, target tersebut masih berada di zona yang bisa dicapai. Kita butuh optimisme.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@InfoGila",
+      "text": "Berita gila yang mengancam kedaulatan tanah air! Mas Pram ternyata punya kesepakatan rahasia mau menggadaikan Pulau Mutiara secara permanen ke negara asing. Hal keji ini dia lakukan demi menutupi angka hutang luar negeri Konoha yang makin membengkak! Sadarlah wahai rakyat!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@PasienBPJS",
+      "text": "Syukurlah mendengar komitmen ketiga calon yang sepakat untuk melanjutkan sistem rujukan BPJS Kesehatan di debat tadi. Perbaikan sistem rumah sakit gratis ini sangat vital bagi keberlangsungan hidup warga kurang mampu. Semoga antrean panjang pendaftaran juga bisa diperpendek.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@DokterPalsu",
+      "text": "Fakta mengerikan dari pidato Mas Dan yang dihapus media! Dia secara terang-terangan berjanji di podium akan membubarkan program BPJS Kesehatan sepenuhnya. Jutaan orang miskin berpenyakit kronis akan dibiarkan mati tanpa pengobatan mulai tahun depan! Sungguh kejam!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@PengamatEkonomi",
+      "text": "Secara teori makroekonomi, visi kebijakan dari ketiga paslon ini memiliki kelebihan dan titik lemahnya masing-masing. Semuanya akan sangat bergantung pada susunan menteri kabinet yang akan mereka tunjuk nanti. Mari kita kawal terus pelaksanaannya.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@Provokator01",
+      "text": "Harus kalian sadari kalau dokumen visi misi paslon nomor 02 dan 03 itu adalah hasil plagiat mentah-mentah dari dokumen asing! Cuma Mas Dan satu-satunya capres yang punya otak cerdas buat bikin program orisinil karya anak bangsa. Yang lain cuma pecundang peniru karya orang!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@WargaDesa",
+      "text": "Rencana penguatan infrastruktur dan modal di tingkat desa memang harus jadi prioritas utama bagi siapapun presiden yang terpilih nanti. Pembangunan tidak boleh cuma terpusat pada gedung pencakar langit di ibu kota baru saja. Kami di pinggiran juga butuh perhatian.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@IsuLokal",
+      "text": "Kabar duka untuk pembangunan desa di seluruh penjuru negeri! Pak Anto berencana menghapus total alokasi Dana Desa dan mengembalikannya ke rekening pemerintah pusat! Kepala desa dan perangkat aparat siap-siap gigit jari karena tidak ada lagi dana untuk membangun jalan paving!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 3,
+      "author": "@MahasiswaKritis",
+      "text": "Sebagai generasi muda, kita wajib mengawal terus janji-janji manis kampanye mereka hari ini. Jangan biarkan ucapan heroik itu hanya berhenti di bibir saat mereka tampil di panggung debat. Kita harus pastikan mereka tidak tiba-tiba amnesia saat sudah duduk nyaman di kursi istana.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "12 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@ArsipKPK",
+      "text": "Sekadar meluruskan disinformasi yang beredar, Mas Dan memang pernah diperiksa penyidik pada tahun 2021 silam terkait kasus korupsi proyek IT. Namun beliau dipanggil murni sebagai saksi ahli. Laporan resmi membuktikan beliau bersih dan kasusnya sudah ditutup sejak lama.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@PemburuKoruptor",
+      "text": "Beredar luas dokumen mutasi bank yang menjadi bukti Mas Dan menerima suap ratusan miliar dari proyek tender IT tahun 2021! Status aslinya sudah menjadi tersangka dan memakai rompi oranye. Namun hal ini sengaja ditutupi rapat oleh ketua KPK karena adanya tekanan politik tingkat tinggi!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@HukumKonoha",
+      "text": "Narasi usang soal rekam jejak pelanggaran peradilan HAM yang dituduhkan pada Pak Anto sudah klir dan selesai. Pengadilan militer tahun lalu telah memutus beliau bebas sepenuhnya dari segala tuduhan kelam tragedi masa lalu. Keputusan hukum ini bersifat mengikat dan final.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@AktivisHitam",
+      "text": "Pak Anto pada masa mudanya pernah dipecat secara sangat tidak hormat dari kesatuan militer karena terbukti mendalangi kasus pembantaian warga desa! Ini saya lampirkan surat pemecatan aslinya yang selama ini mati-matian disembunyikan oleh arsip negara! Tolak pelanggar HAM!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@PemilihCerdas",
+      "text": "Memang benar kerabat Mas Pram maju sebagai wakil rakyat, namun hal tersebut sah dan sesuai dengan konstitusi yang berlaku. Mereka bertarung murni melalui jalur pencalonan partai independen tanpa fasilitas istimewa. Publik bebas menentukan pilihan tanpa adanya paksaan struktural.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@AntiDinasti",
+      "text": "Kelakuan Mas Pram yang haus kekuasaan sudah melewati batas nalar! Beliau memaksa dewan untuk mengubah undang-undang pemilu demi meloloskan anaknya jadi anggota legislatif tanpa proses pencoblosan! Ini adalah bentuk nyata kebangkitan rezim otoriter keluarga di negara kita!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@WargaKotaLama",
+      "text": "Kalau dipikir-pikir, fasilitas Taman Teknologi yang dulu dibangun Mas Dan sekarang manfaatnya terasa banget. Tempatnya sekarang rame banget dipakai anak-anak startup muda buat kumpul dan networking setiap akhir pekan. Fasilitas wifinya kencang dan ruang diskusinya nyaman banget.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@PembongkarFakta",
+      "text": "Kebohongan publik yang luar biasa soal Proyek Taman Teknologi Mas Dan! Faktanya proyek kebanggaan dia itu gagal total dan kualitas pembangunannya sangat buruk. Bangunan mewahnya sekarang mangkrak, isinya cuma ditumbuhi alang-alang lebat dan berubah jadi sarang hantu menakutkan!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@AlumniKampus",
+      "text": "Kementerian Pendidikan Tinggi sebenarnya sudah lama selesai memverifikasi ijazah pascasarjana milik Pak Anto. Gelar S2 beliau dari luar negeri itu terdaftar dan legal secara hukum negara kita. Tidak seharusnya publik terus meragukan rekam jejak akademis dan kemampuan intelektual beliau.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@SiswaBongkar",
+      "text": "Terbongkar skandal besar dunia pendidikan Konoha! Ijazah bergengsi S2 luar negeri milik Pak Anto ternyata hasil membeli dari kampus ruko fiktif di pinggiran kota! Dia tidak pernah mengikuti kelas perkuliahan sama sekali di sana! Gelar akademiknya adalah penipuan terbesar abad ini!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@KlarifikasiPPATK",
+      "text": "Pihak PPATK dan kepolisian sudah mengaudit tuntas lonjakan saldo fantastis di dalam rekening pribadi asisten Mas Pram. Temuan tersebut mengonfirmasi bahwa dananya terbukti murni berasal dari pembagian warisan hasil penjualan tanah keluarga besarnya. Tidak ada unsur pidana dalam kasus ini.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@DetektifSosmed",
+      "text": "Analisa terbaru menemukan triliunan transaksi gelap di rekening staf khusus Mas Pram yang terindikasi kuat sebagai uang suap pelicin proyek infrastruktur! Hasil pencucian uang ini dipakai buat bayar tim buzzer di sosial media! Siap-siap saja sang capres memakai rompi oranye minggu depan!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@ImigrasiKonoha",
+      "text": "Penelusuran data kependudukan dan catatan arsip kantor imigrasi pusat memastikan keabsahan dokumen Mas Dan. Beliau hanya berstatus sebagai pemegang paspor Republik Konoha tunggal sepanjang hidupnya. Syarat pencalonan presiden murni warga negara Konoha telah terpenuhi dengan baik.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@MataElang",
+      "text": "Akhirnya bukti foto paspor negara asing milik Mas Dan bocor tak terkendali ke publik luas! Dia secara diam-diam selama ini memiliki kewarganegaraan ganda untuk menghindari pajak negara! Berdasarkan konstitusi, orang berpaspor ganda haram hukumnya mengikuti kontestasi Pilpres Konoha!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@KorbanMafia",
+      "text": "Saya adalah salah satu saksi hidup dari ketegasan Pak Anto saat beliau masih menjabat menteri dua tahun lalu. Beliau berani menerjunkan aparat untuk memberantas sindikat mafia tanah yang menyaplok paksa sawah keluarga saya. Kinerjanya dalam membela hak rakyat kecil sangat nyata.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@SikatHabis",
+      "text": "Rakyat Konoha jangan mau dibohongi oleh kepalsuan wajah lugu Pak Anto! Dia itu sebenarnya adalah bekingan dan donatur utama sindikat mafia tanah terbesar di ibu kota! Ribuan sertifikat tanah bodong sengaja dikeluarkan secara kilat atas perintah langsung dari meja kerjanya!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@PolitikSehat",
+      "text": "Keputusan ksatria Mas Pram untuk mundur dari kenyamanan jabatan gubernur demi fokus menjalankan kampanye patut diapresiasi tinggi. Langkah etis ini perlu dicontoh politikus lain agar terhindar dari potensi penyalahgunaan fasilitas dan anggaran negara. Ini awal yang baik untuk tradisi politik kita.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@GosipPanas",
+      "text": "Kebohongan terstruktur! Mas Pram sama sekali tidak mundur secara sukarela dari jabatan gubernur seperti yang dia gembar-gemborkan. Dia sebenarnya dilengserkan secara paksa dan diusir oleh dewan DPRD karena terlibat skandal perselingkuhan parah. Kasus memalukan ini ditutupi oleh uang bungkam media!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@DokterRSPAD",
+      "text": "Tim medis independen KPU gabungan telah merilis dokumen hasil tes kejiwaan secara transparan kepada media. Ketiga kandidat calon presiden dinyatakan sangat sehat secara jasmani maupun kapasitas rohaninya. Mereka sepenuhnya dinilai layak dan mampu untuk menjalankan tugas berat kenegaraan.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@MedicalLeaker",
+      "text": "Dokumen rekam medis rahasia dari brankas RSPAD berhasil dibobol dan bocor ke tangan kami! Hasil tes tersebut menyebutkan bahwa Pak Anto secara resmi didiagnosis menderita gangguan mental skizofrenia akut! Orang gila yang suka berhalusinasi ini jelas sangat tidak layak memimpin militer dan negara kita!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@NetizenCerdas",
+      "text": "Mari kawan-kawan, jangan gampang terpancing emosi termakan kampanye hitam menjelang hari pemilihan krusial ini. Biasakan untuk selalu melakukan kroscek track record setiap paslon menggunakan referensi dari lembaga resmi. Cerdas dalam menyaring informasi adalah kunci demokrasi yang sehat.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@PenebarKetakutan",
+      "text": "Percayalah padaku, siapapun dari ketiga bajingan itu yang menang nanti, negara kita tetap akan hancur dan dijual asetnya ke konglomerat asing! Sistem pemilu ini sudah dirancang untuk menipu kita semua secara perlahan! Segera boikot pemilu besok, jangan ada satupun yang datang ke bilik TPS!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@WartawanKritis",
+      "text": "Jejak digital di internet memang terbukti sangat kejam dan sulit dihapus. Pernyataan kontroversial para paslon lima tahun yang lalu bisa dengan mudah dikorek kembali oleh publik hari ini. Momen pemilu ini adalah ajang pembuktian untuk menguji konsistensi antara prinsip masa lalu dan janji mereka saat ini.",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@CyberTroll",
+      "text": "Bukti rekaman dosa masa lalu Mas Dan akhirnya ditemukan di dark web! Dia terekam kamera sedang menggelar pesta minuman keras dan memakai narkoba dosis tinggi bersama pelacur di luar negeri saat masa mudanya! Calon pemimpin tidak bermoral begini tidak pantas menginjakkan kakinya di istana negara!",
+      "imgUrl": "",
+      "isAiImage": true,
+      "isHoax": true,
+      "tanggal": "13 Feb 1924"
+    },
+    {
+      "hari": 4,
+      "author": "@StafDiskominfo",
+      "text": "Terima kasih sebesar-besarnya kepada seluruh agen moderator atas dedikasinya mengawal ruang digital Konoha selama empat hari ini. Mari kita satukan tekad dan pastikan pemilu esok hari berjalan dengan jujur, adil, serta bersih dari pengaruh hoaks yang provokatif. Selamat berjuang mengamankan suara rakyat!",
+      "imgUrl": "",
+      "isAiImage": false,
+      "isHoax": false,
+      "tanggal": "13 Feb 1924"
+    }
+  ],
+  "fakta": [
+    {
+      "hari": 1,
+      "judul": "Lapangan Banteng",
+      "isi": "Polisi telah menyiagakan personel di Lapangan Banteng sejak pagi untuk mengawal jalannya acara. Kegiatan kampanye Mas Dan dilaporkan berjalan lancar sesuai jadwal."
+    },
+    {
+      "hari": 1,
+      "judul": "Helikopter Kampanye",
+      "isi": "Laporan keuangan KPU mencatat biaya sewa helikopter kampanye Pak Anto dibayar murni menggunakan uang pribadinya. Seluruh operasional kendaraan udara tersebut diawasi ketat secara langsung oleh negara."
+    },
+    {
+      "hari": 1,
+      "judul": "Pasar Murah",
+      "isi": "Kegiatan Mas Pram di Desa Daun Tersembunyi terdaftar resmi di Bawaslu sebagai program pasar murah bersubsidi. Warga yang hadir diwajibkan membeli kupon terlebih dahulu dari panitia untuk ditukarkan dengan paket kebutuhan pokok."
+    },
+    {
+      "hari": 1,
+      "judul": "Panggung Rubuh",
+      "isi": "BMKG mengeluarkan peringatan cuaca darurat berupa angin kencang di sektor selatan Konoha siang ini. Kondisi ini juga mempengaruhi kegiatan kampanye Pak Anto di daerah tersebut."
+    },
+    {
+      "hari": 1,
+      "judul": "Netralitas ASN",
+      "isi": "Bawaslu mengonfirmasi bahwa seluruh aparatur sipil negara di Konoha terbukti mematuhi aturan netralitas selama masa pemilu ini. Beberapa video aparatur sipil negara yang terlibat kampanye telah dipastikan merupakan rekaman dokumentasi dari pemilu sebelumnya."
+    },
+    {
+      "hari": 1,
+      "judul": "Atribut Sudirman",
+      "isi": "Satpol PP rutin menertibkan atribut kampanye di sepanjang Jalan Sudirman karena area tersebut masuk dalam zona hijau tata kota. Aturan keindahan kota ini berlaku mutlak untuk pencopotan seluruh baliho milik ketiga pasangan calon ."
+    },
+    {
+      "hari": 1,
+      "judul": "Dana Kampanye",
+      "isi": "PPATK telah melakukan audit menyeluruh terhadap seluruh aliran rekening dana kampanye milik tim Mas Dan. Hasil pemeriksaan menunjukkan bahwa seluruh saldo kas berasal dari sumbangan warga lokal dan pengusaha dalam negeri."
+    },
+    {
+      "hari": 1,
+      "judul": "Lalin Tol Utara",
+      "isi": "Dinas Pekerjaan Umum sedang melakukan perbaikan darurat pada sejumlah ruas aspal yang berlubang di Tol Utara. Hal ini menyebabkan kemacetan lalu lintas di area tersebut."
+    },
+    {
+      "hari": 1,
+      "judul": "Kupon Umroh",
+      "isi": "Tim kampanye Mas Pram merilis pernyataan resmi bahwa mereka tidak memiliki program undian berhadiah dalam bentuk apa pun. Bawaslu juga telah memperingatkan masyarakat untuk waspada terhadap segala bentuk pembagian hadiah yang mengatasnamakan paslon tersebut."
+    },
+    {
+      "hari": 1,
+      "judul": "Deklarasi Agama",
+      "isi": "Asosiasi Pemuka Agama Konoha baru saja mengadakan deklarasi bersama untuk mendukung pemilu yang sejuk dan saling menghargai. Dokumen resmi asosiasi menyatakan netralitas penuh dari Asosiasi Pemuka Agama Konoha."
+    },
+    {
+      "hari": 2,
+      "judul": "Waktu Debat",
+      "isi": "KPU menetapkan regulasi ketat bahwa setiap calon presiden memiliki hak bicara maksimal selama dua menit per sesi. Sistem pencatat waktu digital bekerja otomatis memutus saluran mikrofon semua kandidat jika durasi tersebut telah habis."
+    },
+    {
+      "hari": 2,
+      "judul": "Sinyal Mikrofon",
+      "isi": "Tim teknisi televisi nasional melaporkan adanya gangguan sinyal frekuensi pada kabel receiver di podium tengah. Kendala teknis instalasi ini menyebabkan audio Pak Anto sempat terputus selama beberapa detik sebelum akhirnya kembali normal."
+    },
+    {
+      "hari": 2,
+      "judul": "Angka Kemiskinan",
+      "isi": "Biro Pusat Statistik (BPS) Konoha menerbitkan laporan triwulan terkait penurunan tingkat kemiskinan sebesar satu persen. Angka dari dokumen publik ini digunakan sebagai materi rujukan saat debat capres."
+    },
+    {
+      "hari": 2,
+      "judul": "Sikap Menunduk",
+      "isi": "Kamera dari sudut atas panggung menangkap momen saat Pak Anto sedang membaca catatan kecil di podiumnya selama jeda iklan. Pak Anto didapati menunduk untuk membaca catatan kecil tersebut selama beberapa saat."
+    },
+    {
+      "hari": 2,
+      "judul": "Segel Amplop",
+      "isi": "Pertanyaan debat dirumuskan oleh panelis independen dari Universitas Konoha dan disegel ganda dalam brankas khusus hingga acara dimulai. Sistem pengamanan ketat ini menjamin tidak ada satu pun kandidat yang memiliki akses materi sebelum naik ke panggung."
+    },
+    {
+      "hari": 2,
+      "judul": "Penonton Panggung",
+      "isi": "Tata tertib KPU memperbolehkan setiap tim sukses membawa pendukung dengan kuota terbatas ke dalam area studio debat. Sorakan dan tepuk tangan diizinkan oleh panitia pada akhir sesi pemaparan untuk memeriahkan suasana demokrasi."
+    },
+    {
+      "hari": 2,
+      "judul": "Perangkat Telinga",
+      "isi": "Mas Dan diketahui telah menggunakan alat bantu dengar khusus dari klinik THT sejak lima tahun terakhir. Perangkat tersebut murni alat bantu medis yang diizinkan oleh tim keamanan KPU."
+    },
+    {
+      "hari": 2,
+      "judul": "Respons Podium",
+      "isi": "Rekaman murni dari stasiun televisi menampilkan Pak Anto merespons kritik lawan dengan nada suara yang stabil dan artikulasi yang jelas. Lokasi debat terpantau aman dan kondusif hingga acara usai."
+    },
+    {
+      "hari": 2,
+      "judul": "Catatan Kosong",
+      "isi": "Petugas keamanan panggung memastikan setiap kandidat hanya diperbolehkan membawa kertas kosong dan pena sebelum debat dimulai. Sesaat sebelum debat dimulai seluruh paslon telah digeledah dengan disaksikan seluruh penonton debat."
+    },
+    {
+      "hari": 2,
+      "judul": "Sesi Cawapres",
+      "isi": "Berdasarkan jadwal resmi dari KPU, acara debat edisi malam ini memang dirancang khusus untuk memfasilitasi pemaparan dari calon presiden saja. Sesi adu gagasan antar calon wakil presiden akan diselenggarakan dengan format berbeda pada minggu depan."
+    },
+    {
+      "hari": 3,
+      "judul": "Internet Desa",
+      "isi": "Fokus utama program digitalisasi Mas Dan adalah pemasangan jaringan Wi-Fi gratis pada fasilitas sekolah dan balai desa terpelosok. Program pengadaan infrastruktur ini didanai langsung oleh kementerian terkait."
+    },
+    {
+      "hari": 3,
+      "judul": "Program Pangan",
+      "isi": "Dokumen visi misi Pak Anto mencantumkan alokasi anggaran besar untuk subsidi pupuk cair dan pembagian bibit unggul bagi kelompok tani. Penambahan lahan sawah negara dalam program tersebut memanfaatkan pembukaan lahan kosong milik kementerian perhutanan."
+    },
+    {
+      "hari": 3,
+      "judul": "Tunjangan Guru",
+      "isi": "Mas Pram merancang skema kenaikan tunjangan guru honorer dengan mengalokasikan pemangkasan dana perjalanan dinas dari APBN pusat. Kebijakan peningkatan kesejahteraan ini telah disimulasikan secara matang agar tidak menyentuh pos anggaran gaji pokok pegawai negeri sipil."
+    },
+    {
+      "hari": 3,
+      "judul": "Insentif Pajak",
+      "isi": "Insentif pajak kendaraan yang ditawarkan Mas Dan khusus ditujukan untuk para pemilik mobil dan motor berbasis tenaga listrik. Skema stimulus ini bertujuan menekan polusi udara perkotaan tanpa menghapus kewajiban pajak kendaraan bermotor konvensional."
+    },
+    {
+      "hari": 3,
+      "judul": "Anggaran Militer",
+      "isi": "Peningkatan anggaran pertahanan yang diajukan Pak Anto berfokus pada peremajaan alutsista kapal patroli angkatan laut dan radar udara Konoha. Konsep keamanan semesta ini mengandalkan prajurit profesional tanpa adanya rencana pembentukan program barak sipil massal."
+    },
+    {
+      "hari": 3,
+      "judul": "Transisi Energi",
+      "isi": "Rencana energi Mas Pram menitikberatkan pada pengalihan perlahan subsidi bahan bakar minyak menuju perbaikan fasilitas transportasi kereta massal. Harga eceran bahan bakar di SPBU akan tetap dikendalikan menggunakan ambang batas maksimal agar tetap terjangkau oleh masyarakat."
+    },
+    {
+      "hari": 3,
+      "judul": "Kelanjutan IKN",
+      "isi": "Mas Dan secara tertulis mencantumkan Ibu Kota Negara (IKN) ke dalam daftar program prioritas infrastruktur jangka menengah. Proyek strategis tersebut akan terus dilanjutkan dengan penyesuaian evaluasi desain agar lebih ramah lingkungan."
+    },
+    {
+      "hari": 3,
+      "judul": "Restrukturisasi BUMN",
+      "isi": "Langkah perbaikan manajemen yang diusung Pak Anto bertujuan untuk membersihkan jajaran direksi perusahaan negara dari konflik kepentingan. Program efisiensi internal ini dirancang untuk memaksimalkan laba tanpa melibatkan opsi pelepasan saham mayoritas kepada investor asing."
+    },
+    {
+      "hari": 3,
+      "judul": "Rasio Anggaran",
+      "isi": "Mas Pram menargetkan penurunan rasio pinjaman nasional melalui optimalisasi penerimaan pajak dari sektor perusahaan pertambangan besar. Visi stabilitas ekonomi ini bergantung penuh pada pengelolaan sumber daya dalam negeri yang sah secara konstitusi."
+    },
+    {
+      "hari": 3,
+      "judul": "Keberlanjutan BPJS",
+      "isi": "Ketiga pasangan calon telah menandatangani pakta integritas untuk mempertahankan keberlanjutan program jaminan kesehatan nasional bagi rakyat. Peningkatan kualitas fasilitas rawat inap kelas tiga menjadi fokus utama dari seluruh kandidat di bidang jaminan sosial publik."
+    },
+    {
+      "hari": 4,
+      "judul": "Audit Kasus IT",
+      "isi": "KPK Konoha telah menerbitkan surat keterangan resmi terkait penyelidikan kasus proyek IT tahun 2021 yang melibatkan Mas Dan. Status keterlibatannya dalam kasus tersebut telah dikonfirmasi hanya sebatas saksi ahli dan penyidik."
+    },
+    {
+      "hari": 4,
+      "judul": "Arsip Peradilan",
+      "isi": "Pengadilan HAM Nasional telah mempublikasikan putusan berkekuatan hukum tetap yang menyertakan nama Pak Anto terkait masa lalunya. Arsip kesatuan militer juga mendokumentasikan bahwa beliau memasuki masa purna tugas secara resmi dengan status pemberhentian dengan hormat."
+    },
+    {
+      "hari": 4,
+      "judul": "Pendaftaran Caleg",
+      "isi": "Keikutsertaan kerabat dekat Mas Pram dalam pemilihan legislatif telah divalidasi melalui proses pendaftaran jalur partai yang sesuai konstitusi. Bawaslu memastikan kelengkapan berkas administrasi calon tersebut memenuhi semua syarat hukum yang ditetapkan."
+    },
+    {
+      "hari": 4,
+      "judul": "Taman Startup",
+      "isi": "Fasilitas Taman Teknologi yang digagas Mas Dan saat menjadi walikota kini mencatat ribuan kunjungan harian dari komunitas kreatif. Kompleks bangunan modern tersebut beroperasi penuh sebagai pusat inkubator bisnis dan ruang kerja bersama bagi penggiat digital."
+    },
+    {
+      "hari": 4,
+      "judul": "Penyetaraan Ijazah",
+      "isi": "Kementerian Pendidikan Tinggi Konoha telah menyelesaikan proses penyetaraan dan legalisir terhadap ijazah pascasarjana milik Pak Anto. Dokumen akademik dari universitas luar negeri tersebut tercatat dengan valid di pangkalan data portal akademik nasional."
+    },
+    {
+      "hari": 4,
+      "judul": "Laporan PPATK",
+      "isi": "Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK) merampungkan penelusuran terhadap mutasi dana di rekening asisten Mas Pram. Laporan akhir membuktikan bahwa dana dengan jumlah besar tersebut berasal dari pencairan aset warisan keluarga yang dilelang sah."
+    },
+    {
+      "hari": 4,
+      "judul": "Data Imigrasi",
+      "isi": "Direktorat Jenderal Imigrasi mencatat bahwa Mas Dan hanya memegang satu paspor resmi sebagai bukti kewarganegaraan Republik Konoha. Sistem data base keimigrasian tidak pernah menerima permohonan naturalisasi dari negara asing atas nama yang bersangkutan."
+    },
+    {
+      "hari": 4,
+      "judul": "Satgas Agraria",
+      "isi": "Arsip kementerian mencatat bahwa Pak Anto berhasil membekukan lima sindikat kejahatan agraria terbesar selama masa kepemimpinannya. Langkah tegas beliau telah memfasilitasi pengembalian ribuan hektar sertifikat tanah kepada warga sipil yang menjadi korban penipuan."
+    },
+    {
+      "hari": 4,
+      "judul": "Surat Mundur",
+      "isi": "Mas Pram menyerahkan surat pengunduran diri secara sukarela kepada DPRD agar bisa berkonsentrasi penuh pada tahapan kampanye. Rapat paripurna dewan tingkat provinsi telah menyetujui pengunduran diri tersebut karena memenuhi seluruh ketentuan tata tertib."
+    },
+    {
+      "hari": 4,
+      "judul": "Rekam Medis",
+      "isi": "Tim dokter kepresidenan dari RSPAD telah menyerahkan dokumen hasil tes kesehatan lengkap ketiga kandidat kepada penyelenggara KPU. Evaluasi medis tersebut menyatakan seluruh calon berada dalam kondisi jasmani dan fungsi kejiwaan yang sangat optimal untuk memimpin negara."
+    }
+  ]
+}
